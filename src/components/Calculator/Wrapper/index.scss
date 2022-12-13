@@ -1,0 +1,11 @@
+@import "../../../scss/variables.scss";
+
+.wrapper {
+  align-self: center;
+
+  width: 340px;
+  height: 540px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: $green3;
+}

@@ -1,0 +1,18 @@
+@import "../../../scss/variables.scss";
+
+.wrapper {
+  .screen {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    background-color: rgba(0, 0, 0, 0.0625);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: $light;
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+}

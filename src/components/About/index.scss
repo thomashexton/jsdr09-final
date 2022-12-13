@@ -1,0 +1,15 @@
+@import "../../scss/variables.scss";
+
+.about-page {
+  overflow: hidden;
+
+  p {
+    font-size: 1.6rem;
+    color: $green2;
+    font-weight: 300;
+  }
+
+  .row:nth-child(2) {
+    animation: fadeInLeft 0.5s 1s both;
+  }
+}

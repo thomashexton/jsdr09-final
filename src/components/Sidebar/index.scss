@@ -1,0 +1,86 @@
+@import "../../scss/variables.scss";
+
+.nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 6rem;
+  height: 100vh;
+  min-height: 60rem;
+
+  background: $green3;
+
+  .circle {
+    display: inline-block;
+    background-color: $light;
+    margin: 1rem;
+    border-radius: 50%;
+  }
+
+  .circle-inner {
+    color: $green3;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    font-size: 1.25rem;
+    font-family: "Knewave";
+  }
+
+  nav {
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -105px;
+
+    svg {
+      color: $light;
+    }
+
+    a {
+      font-size: 1.5rem;
+      display: block;
+      line-height: 52px;
+      height: 52px;
+      text-decoration: none;
+
+      &.active,
+      &:hover {
+        svg {
+          color: $green2;
+        }
+      }
+    }
+  }
+
+  ul {
+    position: absolute;
+    bottom: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+
+    li {
+      a {
+        padding: 7px 0;
+        display: block;
+        font-size: 1.5rem;
+        line-height: 1.25rem;
+        color: $light;
+
+        &:hover {
+          svg {
+            color: $green4;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import "./scss/variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 16px; */
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font: normal 300 1.2rem/1.4 "Helvetica Neue", "sans-serif";
+
+  color: $green2;
+  background-color: $light;
+  overflow: hidden;
+  display: block;
+
+  margin: 0;
+  padding: 0;
+}

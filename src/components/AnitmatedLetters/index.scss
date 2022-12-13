@@ -1,0 +1,16 @@
+@import "../../scss/variables.scss";
+// animation: name duration timing-function delay iteration-count direction fill-mode;
+
+.text-animate {
+  display: inline-block;
+  min-width: 15px;
+  opacity: 0;
+
+  animation: bounceIn 1s forwards;
+}
+
+@for $i from 1 through 50 {
+  .text-animate._#{$i} {
+    animation-delay: #{calc($i / 10)}s;
+  }
+}

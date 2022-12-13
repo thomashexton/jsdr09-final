@@ -1,0 +1,61 @@
+input,
+textarea {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+input,
+textarea {
+  color: $green1;
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 0;
+  border-bottom: solid 1px $green1;
+  width: 100%;
+}
+
+input,
+textarea {
+  &::placeholder {
+    color: $green1;
+  }
+}
+
+input[type="text"] {
+  margin-right: 5px;
+}
+
+input[type="email"] {
+  margin-left: 5px;
+}
+
+input[type="submit"] {
+  border-bottom: none;
+}
+
+textarea {
+  // height: 100px;
+  resize: none;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form-submit {
+  cursor: pointer;
+  color: $green3;
+  background-color: $green1;
+  font-weight: bold;
+  &:hover {
+    color: $green1;
+    background-color: $green2;
+  }
+}

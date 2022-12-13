@@ -1,0 +1,13 @@
+.portfolio-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-item {
+  img {
+    width: 200px;
+  }
+  animation: backInRight 1s 1s forwards;
+  opacity: 0;
+}

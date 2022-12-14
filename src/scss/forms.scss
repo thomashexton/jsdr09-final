@@ -11,7 +11,8 @@ button:focus {
 }
 
 input,
-textarea {
+textarea,
+.portfolio-item-info > button {
   color: $green1;
   background-color: transparent;
   padding: 10px 20px;
@@ -49,7 +50,8 @@ textarea {
   margin-bottom: 10px;
 }
 
-.form-submit {
+.form-submit,
+.portfolio-item-info > button {
   cursor: pointer;
   color: $green3;
   background-color: $green1;

@@ -25,6 +25,7 @@
   .portfolio-item-info {
     min-width: 25rem;
     padding-right: 10rem;
+    flex: 1;
   }
 
   .img-container {
@@ -35,8 +36,8 @@
     position: relative;
     overflow: hidden;
 
+    flex: 2;
     // visibility: hidden;
-
     // &:after {
     //   content: "";
     //   position: absolute;
@@ -46,7 +47,6 @@
     //   top: 0;
     //   right: 0;
     // }
-
     img {
       // width: 1080px;
       // position: absolute;
